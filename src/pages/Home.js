@@ -1,5 +1,7 @@
 import picture from '../assets/prifile_picture.png'
 import Links from '../component/Links'
+import Zurilogo from '../assets/Zuri.Internship_Logo.svg'
+import i4g from '../assets/I4G.svg'
 
 function Home(){
     return(
@@ -69,6 +71,13 @@ function Home(){
                     </svg>
                 </div>
             </main>
+            <footer className='py-8 px-4'>
+                <div className='flex pt-9 flex-col items-start border-t'>
+                    <img src={Zurilogo} className="h-[18px]"/>
+                    <p className="text-[#667085] text-sm py-4">HNG Internship 9 Frontend Task</p>
+                    <img src={i4g} className="h-6"/>
+                </div>
+            </footer>
         </div>
     )
 }

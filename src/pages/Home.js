@@ -47,8 +47,8 @@ function Home(){
             <main>
                 <Links
                     id="twitter"
-                    href="https://twitter.com"
-                    linkText="Home"
+                    href="https://twitter.com/loyalsfc"
+                    linkText="Twitter Link"
                 />
                 <Links
                     id="btn__zuri"

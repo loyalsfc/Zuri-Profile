@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.uploadImage{
+  display: none;
+}
+
+.imageContainer:hover .uploadImage{
+  display: flex;
+}
